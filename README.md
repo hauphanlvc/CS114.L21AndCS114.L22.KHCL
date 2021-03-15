@@ -8,7 +8,7 @@
    * Lớp : CS114.L22.KHCl 
    * MSSV : 19522295 
    * GitHub: [TruongThiKimThoa](https://github.com/kimthoa16052001)
-## Cao Đức Trí 
+## Cao Đức Trí cute
    * Lớp : CS114.L21 
    * MSSV : 19520305 
    * GitHub: [CaoDucTri](https://github.com/caoductri1629/)

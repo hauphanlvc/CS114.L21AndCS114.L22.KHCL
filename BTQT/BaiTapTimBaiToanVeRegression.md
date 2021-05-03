@@ -8,9 +8,8 @@
   * Output : Doanh thu của bộ phim.
   * Cách thu thập : Có thể đi khảo sát tình hình thực tế về mức độ quan tâm theo dõi của mọi người về bộ phim, số lượt like và share trên các mạng xã hội lớn như Facebook.
   * Xử lí data : Gom nhóm các dữ liệu thu thập được vào một file. Loại bỏ đi những dữ liệu mà thuộc tính không có giá trị hoặc giá trị âm.
-# Dự đoán
-  * Input : 
-  * Output :
-  * Cách thu thập :
-  * Xử lí data : 
-  
+# Dự đoán thu nhập trong một ngày của một cửa hàng tiện lợi
+  * Input : Tổng số lượt khách hàng ra vào cửa hàng trong một ngày, tỉ lệ những người đã mua hàng.
+  * Output : Thu nhập của cửa hàng đó trong ngày.
+  * Cách thu thập : Dựa vào camera quan sát để đếm xem số lượt ra vào cửa hàng của khách hàng, khảo sát chủ cửa hàng về mức thu nhập trong từng ngày của cửa hàng.
+  * Xử lí data : Gom nhóm những dữ liệu thu thập được vào cùng một file. Loại bỏ đi những dữ liệu mà thuộc tính không có giá trị hoặc giá trị âm.

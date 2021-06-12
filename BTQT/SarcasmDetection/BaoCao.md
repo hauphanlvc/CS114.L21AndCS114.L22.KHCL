@@ -27,7 +27,7 @@ Với mỗi mục lục page sẽ tiến hành chạy từng trang 1(giới hạ
 *   Thu thập headline và link dẫn từng bài báo
 *   Lấy ra thời gian đăng bài báo và chỉ chọn những bài báo được đăng trong 2 năm trở lại đây
 * Chạy đến cuối trang thì chuyển sang trang báo tiếp theo
-Số dữ liệu đã thu thập được là:65996
+Số dữ liệu đã thu thập được là:63344
 
 # Nguồn tham khảo:
 1. Thư viện pandas: https://pandas.pydata.org/docs/

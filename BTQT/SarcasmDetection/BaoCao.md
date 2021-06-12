@@ -27,7 +27,7 @@ Với mỗi mục lục page sẽ tiến hành chạy từng trang 1(giới hạ
 * Lấy ra thời gian đăng bài báo và chỉ chọn những bài báo được đăng trong 2 năm trở lại đây
 * Chạy đến cuối trang thì chuyển sang trang báo tiếp theo
 Số dữ liệu đã thu thập được là:65996
-8. Với website https://www.huffpost.com/, đầu tiên ta lấy tất cả các articles ở các mục trong page, tiếp theo sẽ lọc lấy headline từ các articles, sau đó in ra mỗi mẫu dữ liệu với các thuộc tính là headline, article_link, is_sarcastic được ngăn cách bởi dấu "|" và lưu dưới định dạng file.txt. Các dữ liệu sẽ được lấy trong 3 năm gần nhất (tính tới ngày 1/1/2019). Kết quả thu được bao gồm 54785 mẫu dữ liệu.
+7. Với website https://www.huffpost.com/, đầu tiên ta lấy tất cả các articles ở các mục trong page, tiếp theo sẽ lọc lấy headline từ các articles, sau đó in ra mỗi mẫu dữ liệu với các thuộc tính là headline, article_link, is_sarcastic được ngăn cách bởi dấu "|" và lưu dưới định dạng file.txt. Các dữ liệu sẽ được lấy trong 3 năm gần nhất (tính tới ngày 1/1/2019). Kết quả thu được bao gồm 54785 mẫu dữ liệu.
 # Nguồn tham khảo:
 1. Thư viện pandas: https://pandas.pydata.org/docs/
 2. Thư viện request: https://docs.python-requests.org/en/master/

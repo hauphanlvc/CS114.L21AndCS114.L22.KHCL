@@ -45,5 +45,6 @@ Số dữ liệu đã thu thập được là:65996
 ***Với mỗi mục lục page sẽ tiến hành chạy từng trang 1(giới hạn bài báo cho mỗi mục lục page là 1200 bài)***:
 *   Thu thập headline và link dẫn từng bài báo
 *   Lấy ra thời gian đăng bài báo và chỉ chọn những bài báo được đăng trong các năm 2019 , 2020 , 2021 
+*   Số headline thu thập được là 3085 
    
 9. 

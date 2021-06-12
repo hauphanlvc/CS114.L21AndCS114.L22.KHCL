@@ -28,7 +28,7 @@
 *   Lấy ra thời gian đăng bài báo và chỉ chọn những bài báo được đăng trong 2 năm trở lại đây
 * Chạy đến cuối trang thì chuyển sang trang báo tiếp theo
 Số dữ liệu đã thu thập được là:65996
-8. Với website https://newsthump.com/, lấy headline ở các mục lục page sau:
+8. Với website https://newsthump.com/ (1), lấy headline ở các mục lục page sau:
 - https://newsthump.com/category/uk/
 - https://newsthump.com/category/politics/
 - https://newsthump.com/category/sports/

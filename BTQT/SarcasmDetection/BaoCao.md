@@ -1,0 +1,10 @@
+# Quá Trình Thu Thập Dữ liệu 
+
+
+- Với website https://babylonbee.com/ (1): Chỉ lấy article headlines ở https://babylonbee.com/news. Hàm babylonbee_articles viết bên trên nhận vào số trang muốn scrape và sẽ tiến hành chạy từ trang 1 đến trang đó, Như trên đây nhóm lấy 354 trang là hết tất cả các trang luôn rồi.
+- Với website https://thehardtimes.net/ (1): Tương tự như babylonbee cũng có một hàm babylonbee_articles nhận vào số trang muốn scrape và chạy từ trang 1 tới trang đó. Ở đây nhóm scrape tất cả các trang là 372 trang.
+- Với website https://www.nytimes.com/ (0): Ở đây nhóm scrape theo ngày tháng năm nhờ vào site map. URL có dạng như https://www.nytimes.com/sitemap/2021/06/07/. Nhóm đã scrape từ năm 2020 đến hết năm 2016
+- Với website https://www.thetimes.co.uk/ (0): Tương tự nytimes, the times cũng có sitemap nhưng URL có dạng https://www.thetimes.co.uk/html-sitemap/2020-01-2 với chỉ số cuối thay vì ngày là số từ 1 tới 4. Nhóm đã scrape từ năm 2020 đến hết năm 2016.
+- Với website https://www.ft.com/: Nhóm scrape theo category urls = ["https://www.ft.com/world?page=","https://www.ft.com/companies?page=","https://www.ft.com/technology?page=","https://www.ft.com/markets?page=","https://www.ft.com/climate-capital?page=","https://www.ft.com/opinion?page=","https://www.ft.com/work-careers?page=","https://www.ft.com/arts?page=","https://www.ft.com/books?page=","https://www.ft.com/food-drink?page=","https://www.ft.com/magazine?page=","https://www.ft.com/house-home?page=","https://www.ft.com/style?page=","https://www.ft.com/travel?page=","https://www.ft.com/htsi?page="], tiến hành chạy từ trang 1 đến khi nào lỗi thì chuyển sang category tiếp theo
+- Với website https://www.theguardian.com/: cách làm y hệt như web https://www.ft.com/ với urls = ["https://www.theguardian.com/world?page=","https://www.theguardian.com/commentisfree?page=","https://www.theguardian.com/sport?page=","https://www.theguardian.com/culture?page=","https://www.theguardian.com/lifeandstyle?page="]
+- Với

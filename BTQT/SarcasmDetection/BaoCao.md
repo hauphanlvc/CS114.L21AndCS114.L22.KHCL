@@ -5,6 +5,7 @@
 4. Với website https://www.thetimes.co.uk/ (0): Tương tự nytimes, the times cũng có sitemap nhưng URL có dạng https://www.thetimes.co.uk/html-sitemap/2020-01-2 với chỉ số cuối thay vì ngày là số từ 1 tới 4. Nhóm đã scrape từ năm 2020 đến hết năm 2016.
 5. Với website https://www.ft.com/: Nhóm scrape theo category urls = ["https://www.ft.com/world?page=","https://www.ft.com/companies?page=","https://www.ft.com/technology?page=","https://www.ft.com/markets?page=","https://www.ft.com/climate-capital?page=","https://www.ft.com/opinion?page=","https://www.ft.com/work-careers?page=","https://www.ft.com/arts?page=","https://www.ft.com/books?page=","https://www.ft.com/food-drink?page=","https://www.ft.com/magazine?page=","https://www.ft.com/house-home?page=","https://www.ft.com/style?page=","https://www.ft.com/travel?page=","https://www.ft.com/htsi?page="], tiến hành chạy từ trang 1 đến khi nào lỗi thì chuyển sang category tiếp theo
 6. Với website https://www.theguardian.com/: cách làm y hệt như web https://www.ft.com/ với urls = ["https://www.theguardian.com/world?page=","https://www.theguardian.com/commentisfree?page=","https://www.theguardian.com/sport?page=","https://www.theguardian.com/culture?page=","https://www.theguardian.com/lifeandstyle?page="]
+
 7.Với website https://www.breitbart.com/(0), lấy headline ở các mục lục page sau:
 https://www.breitbart.com/politics/
 https://www.breitbart.com/entertainment/
@@ -26,8 +27,8 @@ Với mỗi mục lục page sẽ tiến hành chạy từng trang 1(giới hạ
 * Thu thập headline và link dẫn từng bài báo
 * Lấy ra thời gian đăng bài báo và chỉ chọn những bài báo được đăng trong 2 năm trở lại đây
 * Chạy đến cuối trang thì chuyển sang trang báo tiếp theo
-Số dữ liệu đã thu thập được là:65996
-7. Với website https://www.huffpost.com/, đầu tiên ta lấy tất cả các articles ở các mục trong page, tiếp theo sẽ lọc lấy headline từ các articles, sau đó in ra mỗi mẫu dữ liệu với các thuộc tính là headline, article_link, is_sarcastic được ngăn cách bởi dấu "|" và lưu dưới định dạng file.txt. Các dữ liệu sẽ được lấy trong 3 năm gần nhất (tính tới ngày 1/1/2019). Kết quả thu được bao gồm 54785 mẫu dữ liệu.
+Số dữ liệu đã thu thập được là:63344
+8. Với website https://www.huffpost.com/, đầu tiên ta lấy tất cả các articles ở các mục trong page, tiếp theo sẽ lọc lấy headline từ các articles, sau đó in ra mỗi mẫu dữ liệu với các thuộc tính là headline, article_link, is_sarcastic được ngăn cách bởi dấu "|" và lưu dưới định dạng file.txt. Các dữ liệu sẽ được lấy trong 3 năm gần nhất (tính tới ngày 1/1/2019). Kết quả thu được bao gồm 54785 mẫu dữ liệu.
 # Nguồn tham khảo:
 1. Thư viện pandas: https://pandas.pydata.org/docs/
 2. Thư viện request: https://docs.python-requests.org/en/master/
